@@ -30,7 +30,7 @@ export class NotesDescComponent implements OnInit {
     console.log("this is getNote noteID : "+id);
     this.noteService.getNote(id)
       .subscribe(note => this.note = note);
-      console.log("note value - "+this.note);
+      console.log("note value -"+this.note);
   }
   
 }
